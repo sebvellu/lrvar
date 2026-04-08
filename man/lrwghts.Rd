@@ -43,4 +43,3 @@ lrwghts(30, 10, "qs")
 }
 
 }
-\keyword{internal}

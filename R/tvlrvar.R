@@ -1,4 +1,4 @@
-tvlrvarnew <- function(
+tvlrvar <- function(
 		tsrs, strt, fnsh, krnl = "ba", band = "and"
 ) {
 	lgth <- NROW(tsrs)

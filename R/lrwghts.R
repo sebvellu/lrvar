@@ -33,7 +33,7 @@
 #' lrwghts(30, 10, "qs")
 #' }
 #' 
-#' @keywords internal
+#' @export
 #' 
 lrwghts <- function(lgth, bwdh, krnl = "ba") {
 	if (krnl == "tr") { # Truncated/rectangular kernel

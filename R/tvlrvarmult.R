@@ -1,6 +1,6 @@
 #' @export
 
-tvlrvarmultnew <- function(
+tvlrvarmult <- function(
 		tsrs, sgmh, slct = 1, krnl = "ba", band = "and"#, zero = FALSE #segment-half-width
 ) {
 	lgth <- NROW(tsrs)
@@ -22,7 +22,7 @@ tvlrvarmultnew <- function(
 	#strt <- 1:(lgth - 2  * sgmt + 1)
 	#fnsh <- (2 * sgmt):lgth
 	#
-	rslt <- tvlrvarnew(tsrs, strt, fnsh, krnl, band)
+	rslt <- tvlrvar(tsrs, strt, fnsh, krnl, band)
 	rslt <- c(rslt, list(mval = mval))
 	return(rslt)
 }
