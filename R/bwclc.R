@@ -58,7 +58,7 @@ bwclc <- function(tsrs, krnl = "ba", band = "and", wght = NULL) {
 		# 
 		return(band * lgth^(1/(2 * keys[1] + 1)))
 	} else if (identical(band, "nwt")) {
-		return(floor(4 * (T/100)^(2/9)))
+		return(floor(4 * (NROW(tsrs)/100)^(2/9)))
 	} else {
 		return(band)
 	}
