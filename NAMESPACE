@@ -2,4 +2,4 @@
 
 export(lrvar)
 export(lrwghts)
-export(tvlrvarmult)
+export(tvlrvar)
